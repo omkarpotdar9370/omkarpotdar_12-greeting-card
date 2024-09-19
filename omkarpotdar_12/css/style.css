@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.back{
+    width: 40%;
+    height: 94vh;
+    background-color: rgb(52, 196, 52);
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-left: 30%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.border{
+    position: absolute;
+    background-color: ;
+    border: rgb(107, 160, 3) 5px solid;
+    width: 90%;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: yellow 0px 0px 30px 0px;
+    margin-left: 5%;
+    margin-top: 3vh;
+}
+
+.one1{
+    background-color: rgb(173, 49, 49);
+    border-radius: 50%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: -73px;
+    margin-top: 70%;
+}
+
+.one2{
+    background-color: yellow;
+    border-radius: 30%;
+    position: absolute;
+    width: 250px;
+    box-shadow: inset rgb(100, 141, 84) 0px 0px 80px 10px ;
+    height: 250px;
+    margin-left: 170px;
+    margin-top: 80%;
+}
+
+.one3{
+    background-color: violet;
+    border-radius: 50%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 360px;
+    box-shadow: inset rgb(100, 141, 84) 0px 0px 80px 10px ;
+    margin-top: 70%;
+}
+
+.one4{
+    background-color: blue;
+    border-radius: 200px 0px 0px 0px ;
+    transform: rotate(340deg) rotate(20deg);
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    margin-left: 410px;
+    z-index: 1;
+    box-shadow: inset rgb(100, 141, 84) 0px 0px 80px 10px ;
+
+    margin-top: 80%;
+}
+
+.one5{
+    background-color: rgb(14, 178, 14);
+    border-radius: 100px 500px 100px 500px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-left: 493px;
+    margin-top: 94%;
+    box-shadow: inset rgb(100, 141, 84) 0px 0px 80px 10px ;
+transform: rotate(-3deg);
+}
+
+.one6{
+    background-color: yellow;
+    border-radius: 70%;
+    position: absolute;
+    width: 250px;
+    box-shadow: inset rgb(100, 141, 84) 0px 0px 80px 10px ;
+    height: 250px;
+    margin-left: 70px;
+    margin-top: 70%;
+}
+
+.one7{
+    background-color: yellowgreen;
+    position: absolute;
+    width: 60%;
+    height: 130px;
+    box-shadow: inset black 0px 0px 15px 0px;
+    margin-top: 23%;
+    border-radius: 30px 0px 30px 0px ;
+    margin-left: 20%;
+}
+
+.one8{
+    background-color: #fff;
+    width: 400px;
+    position: absolute;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: -54%;
+    box-shadow: inset green 0px 0px 20px 3px;
+    border: 3px solid green;
+    margin-left: 18%;
+}
+
+.one9{
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    margin-left: 39%;
+    margin-top: 11px;
+    box-shadow: inset 0px 0px 10px 3px rgba(248, 246, 246, 0.5)
+}
+
+.one10{
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    margin-left: 60%;
+    margin-top: 11px;
+    box-shadow: inset 0px 0px 10px 3px rgba(248, 246, 246, 0.5)
+}
+
+.front{
+    width: 40%;
+    height: 94vh;
+    /* background-color: #fff; */
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 30%;
+}
+
+.text{
+    font-size: 33px;
+    position: absolute;
+    margin-left: 25%;
+margin-top: 26%;
+text-transform: uppercase;
+font-family: "sofachrome";
+letter-spacing: 3px;
+text-align: center;
+line-height: 45px;
+}
+
